@@ -1,0 +1,247 @@
+C:\Users\Tarun\AppData\Local\Programs\Python\Python310
+
+anconda: http://localhost:8889/notebooks/Untitled1.ipynb?kernel_name=python3
+1:
+a=10
+print ("value of a:", a)
+
+a = int (input ("enter value of a"))
+
+b = str (input ("name of student"))
+
+a = float (input ("enetr value of a"))
+
+
+2:
+print ("Welcome to Guru99")
+print (8 * "\n")
+print ("Welcome to Guru99")
+
+
+out:
+Welcome to Guru99
+
+
+3:
+p = float(input ("enter money lent:"))
+r = float(input ("enter rate of intrest:"))
+t = float(input ("enter times in yr:"))
+
+SI = (p*r*t)/100
+amountpay = p+SI
+print ("total ampunt pay:",amountpay)
+
+4:
+n = int (input("how many times ?"))
+print ("good morning"*n)
+
+5:
+import math
+m = float (input ("enter mass:"))
+c = 3*pow(10,8)
+e = m*c*c
+print ("energy:",e)
+
+
+6:
+Welcome to Guru99
+
+a="Guru"
+b = 99
+print(a+str(b))
+out:Guru99
+
+7:
+a=2
+b=3
+c=a+b
+print (c)
+
+8:
+x=10
+print (x)
+
+x= "i m student of ABES"
+print (x)
+
+9:
+
+name= input ("enter name :")
+print ("ABES STUDENT :",name)
+
+
+10:
+
+n1 =input ("enter number 1:")
+n2= input ("enter number 2:")
+n3 =input ("enter number 3:")
+print ("original numbers:",n1,n2,n3)
+
+11:
+
+n1 = 10
+n2 = 20
+n3 = 30
+print ("original numbers:",n1,n2,n3)
+
+out:
+original numbers: 10 20 30
+after swapping: 20 30 10
+
+12:
+
+n1,n2,n3=n2,n3,n1
+print ("after swapping:",n1,n2,n3)
+
+n1 =input ("enter number 1:")
+n2= input ("enter number 2:")
+n3 =input ("enter number 3:")
+print ("original numbers:",n1,n2,n3)
+
+n1,n2,n3=n2,n3,n1
+print ("after swapping:",n1,n2,n3)
+
+13:
+
+x,y=7,2
+x,y=y,x+1
+print (x,y)
+
+output: 2 8
+
+14:
+
+x=20
+y=40
+print ("enter no x, y:", x,y)
+x=x-5
+y=y-6
+print ("new nuber:", x,y)
+
+
+15:
+x=20
+y=40
+print ("enter no x, y:", x,y)
+x=y
+y=x
+print ("after swapping", x,y)
+
+
+20 40
+40 40
+
+
+16:
+
+x=20
+y=40
+c=5
+print ("enter no x, y,c:", x,y,c)
+x=y
+y=c
+c=x
+print ("after swapping", x,y,c)
+
+20 40 5
+40 5 40
+
+17:
+x=20
+y=40
+c=5
+print ("enter no x, y,c:", x,y,c)
+k=x
+x=y
+y=c
+c=x
+x=k
+print ("after swapping", x,y,c)
+out:
+enter no x, y,c: 20 40 5
+after swapping 20 5 40
+
+18:
+num = int (input ("enter number:"))
+cube = num*num*num
+print ("number is :",num)
+print ("its cube is :",cube)
+
+19:
+
+L = float (input ("enter length of rectangle:"))
+B= float (input ("enter breath of rectangle:"))
+area = L*B
+print ("length is :",L)
+print ("Breath is :",B)
+
+print ("area is :",area)
+
+20:
+
+mile = int (input ("enter miles"))
+km = mile/0.6
+print ("miles :",mile)
+print ("kilometer :", km)
+
+21:
+
+x = int (input ("enter x"))
+y = int (input ("enter y"))
+z = int (input ("enter z"))
+avg = (x+y+z)/3
+print ("value of x,y,z :",x,y,z)
+print ("avarage :",avg)
+ 
+
+22:
+string :
+ print ("enetr the value")
+print (‘ram \ shyam \ ramu’)
+
+23:
+ numerical literals
+a= 10
+b =23.6
+c = 10+5j
+print (a)
+print (b)
+print (c)
+
+24:
+list and tuple
+c =[1,2,3,4]
+b =(1,2,3,4)
+print (c)
+print (b)
+d =['am','bt','red']
+e =('am','bt','red')
+print (d)
+print (e)
+
+25:
+ a = 10
+b = 23.5
+print (a,b,sep='--')
+
+26:
+a = 10
+b = 23.5
+print (a,b,sep='\n')
+
+27:
+x = 4
+y = 5
+print ("x+y:",x+y)
+print ("x-y:",x-y)
+print ("x*y:",x*y)
+print ("x //y:",x//y)
+print ("x**y:",x**y)
+
+
+
+
+
+
+
+
